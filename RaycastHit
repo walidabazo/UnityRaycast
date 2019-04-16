@@ -1,0 +1,18 @@
+ if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+
+                //case 1
+                if (hit.collider.tag == "tag1")
+                {
+                }
+                
+                  //case 2
+                if (hit.collider.tag == "tag2")
+                {
+                }
+             }
+        }     

@@ -128,3 +128,11 @@ Unity3d Raycast Camera
     Gameobject.GetComponent<AudioSource>().Play();
     Gameobject.GetComponent<AudioSource>().Stop();
     Gameobject.GetComponent<AudioSource>().Pause();
+    
+## Video C# on unity 
+// add Reference 
+using UnityEngine.Video;
+
+    Gameobject.GetComponent<VideoPlayer>().Play();
+    Gameobject.GetComponent<VideoPlayer>().Stop();
+    Gameobject.GetComponent<VideoPlayer>().Pause();

@@ -1,0 +1,5 @@
+AudioSource C# on unity 
+
+Gameobject.GetComponent<AudioSource>().Play();
+Gameobject.GetComponent<AudioSource>().Stop();
+Gameobject.GetComponent<AudioSource>().Pause();

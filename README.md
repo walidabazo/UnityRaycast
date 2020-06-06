@@ -143,3 +143,7 @@ using UnityEngine.Video;
     Gameobject.GetComponent<VideoPlayer>().Play();
     Gameobject.GetComponent<VideoPlayer>().Stop();
     Gameobject.GetComponent<VideoPlayer>().Pause();
+
+## Can be start web Augmented reality
+
+Https://Webxr.edafait.com
